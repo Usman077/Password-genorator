@@ -31,12 +31,29 @@ const generatepass = (password= "")=>{
      if (symbol.checked){
     password += formula(symbolset)
 }
-   if (password.length<pass.value){
-    generatepass();
+   if(password.length<=pass.value){
+    return generatepass(password)
+
    }
- box.innerHTML= password;   
+
+
+ box.innerHTML= termainte(password,pass.value);   
   
 }
+ 
+// creating a function to eliminate the extra values of the password 
+function termainte(str,num){
+  if (str.length<num){
+    let substr = str.substring(0,num);
+    return substr;
+  }
+  else{
+    return str
+  }
+}
+
+
+
 
 document.getElementById("btn").addEventListener("click",
 ()=>{

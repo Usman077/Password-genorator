@@ -13,9 +13,9 @@ button {
 
 .container {
 	margin: 40px 0;
-	width: 400px;
-	height: 600px;
-	padding: 10px 25px;
+	width: 350px;
+	height: 500px;
+	padding: 25px;
 	background: #0a0e31;
 	border-radius: 10px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
@@ -25,8 +25,9 @@ button {
 }
 
 textarea {
+    height:10hv;
     border :none;
-    width: 80%;
+    width: 97%;
     font-size: 1.75rem;
     resize: none;
     border-radius: 10px;
@@ -38,10 +39,10 @@ h5{
     color: #fff;
 }
 button{
-    margin-top: 10px;
+    margin-top: 5px;
     left: 20px;
     height:10vh;
-    width:90%;
+    width:97%;
     justify-content: center;
     background-image: linear-gradient(to top, #209cff 100%, #68e0cf 200%);
 	border-radius: 10px;  
